@@ -1,0 +1,95 @@
+body {
+  font-family: Overpass;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-family: Chivo;
+}
+
+p {
+  color: darkslategrey;
+}
+
+.btn-blue{color: darkgrey; font-size: 40;}
+
+.container {
+  width: 800px;
+  color: yellow;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/hai.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 50px;
+}
+
+.button-blue {
+  background-color: #1A48E3;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 10px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.type{
+ color: yellow;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
+.cards {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 16px;
+}
+.box{text-align: center;}
+.cards{text-align: center;}
+
+
